@@ -27,15 +27,20 @@ The app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Project Stages
-Stage: Initial
 
+Stage: Initial
 1- Creating initial components (landing image, button) (add test and failing elegantly component for initial state)
 2- Binding the button to the GET request and hit the API when clicked
 3- Displaying results on page
 
 
 Stage: Main
-
+1- My Main concern is to not re-render page inefficiently.
+2- Introducing list components that include list element components to place data on page.
+  [for further reading](https://reactjs.org/docs/lists-and-keys.html)
+3- Will load all data on page load for now. Will add pagination next so that I dont load everything.
+4- Will handle the case when API returns zero results. Added an svg to display instead for better UX.
+5- Might switch API call to axios from regular fetch if budget allows.
 
 Stage: Touch ups
 
