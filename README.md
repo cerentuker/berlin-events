@@ -46,8 +46,12 @@ Stage: Main
 Stage: Touch ups
 1- Added logo for visual enhancement.
 2- Ordered events by date, latest first.
+3- Changed error handling :
+  - when the api call is successful and no fatal errors, but call has no results, show the logo only.
+  - in case of a fatal error anywhere in App.js, fail elegantly by displaying the custem ui
 
 Stage: Future Plans
-1- Will add better mobile support. Now it doesn't adapt to anything smaller than Iphone8.
-2- Will add pagination.
+1- Will add better mobile support. Currently the page doesn't adapt to anything smaller than Iphone8.
+2- Will add pagination instead of loading all results at once.
+3- Will add test cases for faulty responses from API call.
 

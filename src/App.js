@@ -30,10 +30,10 @@ function App() {
     getData()
   },[])
   return (
-    <div className="App">
-      <MyHeader />
-      { data && data.length>0 && data.map((item)=><div><EventList events={data}/></div> )}
-    </div>
+      <div className="App">
+        <MyHeader />
+        { data && data.length>0 && data.map((item)=><div><EventList events={data}/></div> )}
+      </div>
   );
 }
 
