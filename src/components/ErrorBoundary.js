@@ -1,8 +1,6 @@
 import React from 'react'
 
-/**
- * Boundary component to fail elegantly
- */
+//Boundary component to catch critical errors and fail elegantly
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);

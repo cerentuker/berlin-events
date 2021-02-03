@@ -34,7 +34,6 @@ Stage: Initial
 * Binding the button to the GET request and hit the API when clicked
 * Displaying results on page
 
-
 Stage: Main
 * My Main concern is to not re-render page inefficiently.
 * Introducing list components that include list element components to place data on page.
@@ -54,4 +53,5 @@ Stage: Future Plans
 * Will add better mobile support. Currently the page doesn't adapt to anything smaller than Iphone8.
 * Will add pagination instead of loading all results at once.
 * Will add test cases for faulty responses from API call.
+* Will change API calls to use [axios](https://blog.logrocket.com/axios-or-fetch-api/)
 
