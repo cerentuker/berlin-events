@@ -30,28 +30,28 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Project Stages
 
 Stage: Initial
-1- Creating initial components (landing image, button) (add test and failing elegantly component for initial state)
-2- Binding the button to the GET request and hit the API when clicked
-3- Displaying results on page
+* Creating initial components (landing image, button) (add test and failing elegantly component for initial state)
+* Binding the button to the GET request and hit the API when clicked
+* Displaying results on page
 
 
 Stage: Main
-1- My Main concern is to not re-render page inefficiently.
-2- Introducing list components that include list element components to place data on page.
+* My Main concern is to not re-render page inefficiently.
+* Introducing list components that include list element components to place data on page.
   [for further reading](https://reactjs.org/docs/lists-and-keys.html)
-3- Will load all data on page load for now. Will add pagination next so that I dont load everything.
-4- Will handle the case when API returns zero results. Added an svg to display instead for better UX.
-5- Might switch API call to axios from regular fetch if budget allows.
+* Will load all data on page load for now. Will add pagination next so that I dont load everything.
+* Will handle the case when API returns zero results. Added an svg to display instead for better UX.
+* Might switch API call to axios from regular fetch if budget allows.
 
 Stage: Touch ups
-1- Added logo for visual enhancement.
-2- Ordered events by date, latest first.
-3- Changed error handling :
+* Added logo for visual enhancement.
+* Ordered events by date, latest first.
+* Changed error handling :
   - when the api call is successful and no fatal errors, but call has no results, show the logo only.
   - in case of a fatal error anywhere in App.js, fail elegantly by displaying the custem ui
 
 Stage: Future Plans
-1- Will add better mobile support. Currently the page doesn't adapt to anything smaller than Iphone8.
-2- Will add pagination instead of loading all results at once.
-3- Will add test cases for faulty responses from API call.
+* Will add better mobile support. Currently the page doesn't adapt to anything smaller than Iphone8.
+* Will add pagination instead of loading all results at once.
+* Will add test cases for faulty responses from API call.
 
