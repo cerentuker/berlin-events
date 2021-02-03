@@ -1,6 +1,7 @@
-# Show Events in Berlin Application
+# Berlin Events Application
+This is a web application that feeds on [Berlin Events SimpleSearch API](https://www.berlin.de/sen/web/service/maerkte-feste/strassen-volksfeste/index.php/index/all.json?q=) and displays available events in Berlin to the user.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 For handling the API responses I will be most likely using axios.
 
 ## Available Scripts
@@ -43,6 +44,10 @@ Stage: Main
 5- Might switch API call to axios from regular fetch if budget allows.
 
 Stage: Touch ups
-
+1- Added logo for visual enhancement.
+2- Ordered events by date, latest first.
 
 Stage: Future Plans
+1- Will add better mobile support. Now it doesn't adapt to anything smaller than Iphone8.
+2- Will add pagination.
+
