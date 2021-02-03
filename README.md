@@ -30,7 +30,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Project Stages
 
 Stage: Initial
-* Creating initial components (landing image, button) (add test and failing elegantly component for initial state)
+* Creating initial components (landing image, button) (add test and investigate failing elegantly instead of crash and burn)
 * Binding the button to the GET request and hit the API when clicked
 * Displaying results on page
 
@@ -50,8 +50,15 @@ Stage: Touch ups
   - in case of a fatal error anywhere in App.js, fail elegantly by displaying the custem ui
 
 Stage: Future Plans
+* Will implement the API [tests](https://www.smashingmagazine.com/2020/07/react-apps-testing-library/)
 * Will add better mobile support. Currently the page doesn't adapt to anything smaller than Iphone8.
 * Will add pagination instead of loading all results at once.
 * Will add test cases for faulty responses from API call.
 * Will change API calls to use [axios](https://blog.logrocket.com/axios-or-fetch-api/)
+
+Prioritised test cases
+- 'Something went wrong. Please try again later.' should be displayed on screen when App.js crashes
+- validate that only the logo is visible on page when API returns 0 results
+- validate that there are some card elements on landing page when API returns more than one result.
+
 
