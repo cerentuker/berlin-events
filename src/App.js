@@ -1,7 +1,7 @@
 import './App.css';
 import React,{useState,useEffect} from 'react';
 import EventList from './components/EventList';
-import MyHeader from './components/EventsHeader';
+import EventsHeader from './components/EventsHeader';
 import { EVENT_API_URL } from "./configs";
 
 /**
@@ -36,7 +36,7 @@ function App() {
   }, [])
   return (
       <div className="App">
-        <MyHeader />
+        <EventsHeader />
         { data && data.length>0 && data.map((item)=><div><EventList events={data}/></div> )}
       </div>
   );
