@@ -55,6 +55,7 @@ Stage: Future Plans
 * Will add pagination instead of loading all results at once.
 * Will add test cases for faulty responses from API call.
 * Will change API calls to use [axios](https://blog.logrocket.com/axios-or-fetch-api/)
+* Check react best practices and add styleguide
 
 Prioritised test cases
 - 'Something went wrong. Please try again later.' should be displayed on screen when App.js crashes

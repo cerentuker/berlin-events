@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Component that renders the event cards
+ * @param {Object} props is a single event object
+ */
 const EventListItem = (props) => {
     return(
         <div className="card"  key={props.event.id}>
@@ -9,7 +13,7 @@ const EventListItem = (props) => {
             <div className="eventTime">
                 { (props.event.bis !== props.event.von) ? props.event.von : props.event.von  + ' bis '  + props.event.bis} {props.event.zeit} 
             </div>
-            {props.event.bezeichnung}
+            <p> {props.event.bezeichnung} </p>
             {props.event.bemerkungen}
             <h5>{props.event.veranstalter.split(',')} {props.event.mail } {props.event.www} </h5>
           </div>

@@ -31,9 +31,9 @@ function App() {
       .then(res => res.json())
       .then(myJson => setData(myJson.index.sort(sortEventsByDate)));
   }
-  useEffect(()=>{
+  useEffect(() => {
     getData()
-  },[])
+  }, [])
   return (
       <div className="App">
         <MyHeader />

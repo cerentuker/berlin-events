@@ -1,6 +1,6 @@
 import React from 'react'
 
-//Boundary component to catch critical errors and fail elegantly
+// Boundary component to catch critical errors and fail elegantly
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -8,7 +8,6 @@ class ErrorBoundary extends React.Component {
   }
 
   componentDidCatch(error, info) {
-    // Display fallback UI
     this.setState({ hasError: true });
   }
 
