@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the app in the brows
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ### `yarn build`
 
@@ -26,3 +26,18 @@ The app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### Project Stages
+Stage: Initial
+
+1- Creating initial components (landing image, button) (add test and failing elegantly component for initial state)
+2- Binding the button to the GET request and hit the API when clicked
+3- Displaying results on page
+
+
+Stage: Main
+
+
+Stage: Touch ups
+
+
+Stage: Future Plans
